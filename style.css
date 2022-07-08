@@ -70,4 +70,23 @@
     max-width: 464px;
     margin-bottom: 50px;
 }
-.button
+.btn-violet{
+    background: #5454d4;
+}
+.btn-transparent{
+    background: none;
+    color: #5454d4;
+    border: 1px solid #5454d4;
+    margin-left: 35px;
+}
+.footer{
+    background-color: rgba(255, 113, 67, 0.27);
+}
+.btn-violet:hover{
+    background-color: rgb(94, 118, 250);
+    transition: 400ms;
+}
+.btn-transparent:hover{
+    background-color: rgb(198, 198, 198);
+    transition: 500ms;
+}
