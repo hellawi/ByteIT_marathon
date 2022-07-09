@@ -1,8 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-weight: normal;
+body{
+    font-family: 'DM Sans', sans-serif;
 }
 
 .container{
@@ -12,6 +9,11 @@
 .header{
     background-color: rgba(255, 113, 67, 0.27);
     padding: 38px 0 48px;
+}
+.header-flex, .footer-flex, .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-li{
     display: inline-block;
@@ -51,6 +53,9 @@
 .btn-orange:hover{
     background: #f67c53;
     transition: 500ms;
+}
+.about{
+    margin: 105px auto 85px;
 }
 .about-title{
     font-weight: 700;
